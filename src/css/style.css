@@ -1,50 +1,36 @@
-@media screen and (max-width:768px) {
-    header::before {
-        background-position: center;
-    }
-}
-
 * {
     font-family: 'Roboto', sans-serif;
 }
-a {
-    color: rgba(255, 255, 255, 0.8);
-}
-.navbar-inverse {
-    position: relative;   
-}
-.navbar-inverse::before {
-    content:"";
-    position:absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-    filter:brightness(0.1); 
-    -webkit-filter:brightness(0.1);   
-    left:0;top:0;bottom:0;right:0; 
-    z-index:-1;
-}
-header {
+.header-area {
+    background-image: url("../../img/header.jpg");
+    background-size: cover;
     height: 100vh;
     position: relative;
-    color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: top;
+    -ms-flex-align: top;
+        align-items: top;
 }
-header::before {
-    content:"";
-    position:absolute;
-    background: url(../../img/header.jpg) no-repeat center;
-    background-size: contain;
-    filter:brightness(0.4); 
-    -webkit-filter:brightness(0.4);   
-    left:0;top:0;bottom:0;right:0; 
-    z-index:-1;
+.header-area:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
-header center {
-    margin-top: 19%;
+.header-area .block {
+    text-align: center;
+    z-index: 99;
 }
-header center h1 {
-    font-size: 15mm;
-    color:#fff;
-}
-header center p {
-    margin-left: 10.6%;
-    font-size: 5mm;
-}
+.header-area h1 {
+    color: #fff;
+    text-transform: capitalize;
+  }
