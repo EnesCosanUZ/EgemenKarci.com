@@ -1,9 +1,9 @@
-@media only screen and (max-width: 767px) {
-    header {
-    background: url(../../img/header.jpg) fixed no-repeat center center;
-    background-size: 200%;
+@media screen and (max-width:768px) {
+    header::before {
+        background-position: center;
+    }
 }
-}
+
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -30,8 +30,8 @@ header {
 header::before {
     content:"";
     position:absolute;
-    background: url(../../img/header.jpg) fixed no-repeat center center;
-    background-size: 150%;
+    background: url(../../img/header.jpg) no-repeat center;
+    background-size: contain;
     filter:brightness(0.4); 
     -webkit-filter:brightness(0.4);   
     left:0;top:0;bottom:0;right:0; 
