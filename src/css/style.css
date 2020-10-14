@@ -30,6 +30,9 @@
     text-align: center;
     z-index: 99;
 }
+.header-area .block .me {
+    margin-top: 45%;
+}
 .header-area h1 {
     color: #fff;
     text-transform: capitalize;
