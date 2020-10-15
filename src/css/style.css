@@ -1,8 +1,21 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+a {
+    color: #fff;
+}
+a:hover {
+    color: #cacaca;
+}
+.navbar-toggler-icon {
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
 .header-area {
     background-image: url("../../img/header.jpg");
+    background-position: center;
     background-size: cover;
     height: 100vh;
     position: relative;
