@@ -10,14 +10,17 @@ a:hover {
 .navbar-brand {
     font-size: 30px;
 }
-li.navbar-item {
-    font-size: 30px;
+li.nav-item {
+    font-size: 20px;
 }
 .navbar-toggler-icon {
     color: #fff;
     margin: 0 auto;
     width: 100%;
     height: auto;
+}
+nav {
+    background: rgba(0, 0, 0, 0.55);
 }
 .header-area {
     background-image: url("../../img/header.jpg");
@@ -54,14 +57,23 @@ li.navbar-item {
     text-transform: capitalize;
 }
 .me {
-    margin-top: 36%;
+    margin-top: 66%;
 }
 .me h1 {
     font-size: 65px;
 }
+.whyme {
+    background: rgba(0, 0, 0);
+    margin: 0 auto;
+}
+.whyme .row {
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
 
 @media screen and (max-width: 768px) {
     .me {
-        margin-top: 45%;
+        margin-top: 75%;
     }
 }
