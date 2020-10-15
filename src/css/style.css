@@ -7,6 +7,7 @@ a {
 a:hover {
     color: #cacaca;
 }
+/* NAVBAR SECTION */
 .navbar-brand {
     font-size: 30px;
 }
@@ -22,6 +23,7 @@ li.nav-item {
 nav {
     background: rgba(0, 0, 0, 0.55);
 }
+/* HEADERAREA SECTION */
 .header-area {
     background-image: url("../../img/header.jpg");
     background-position: center;
@@ -62,6 +64,7 @@ nav {
 .me h1 {
     font-size: 65px;
 }
+/* WHYME SECTION */
 .whyme {
     background: rgba(0, 0, 0);
     margin: 0 auto;
@@ -71,7 +74,32 @@ nav {
     text-transform: capitalize;
     text-align: center;
 }
+/* ABOUT SECTION */
+.about {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+}
+.about h1 {
+    text-align: center;
+    color: #fff;
+}
+.about .left {
+    float: left;
+}
+.about .right {
+    float: left;
+    color: #fff;
+}
+.about .right .card {
+    background: transparent;
+    border: transparent;
+}
+/* LASTPort SECTION */
+.lastPort {
+    background: rgba(0, 0, 0);
+}
 
+/* TABLET AND LOWER WIDTH SETTINGS*/
 @media screen and (max-width: 768px) {
     .me {
         margin-top: 75%;
