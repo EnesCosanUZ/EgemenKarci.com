@@ -7,6 +7,12 @@ a {
 a:hover {
     color: #cacaca;
 }
+.navbar-brand {
+    font-size: 30px;
+}
+li.navbar-item {
+    font-size: 30px;
+}
 .navbar-toggler-icon {
     color: #fff;
     margin: 0 auto;
@@ -43,10 +49,19 @@ a:hover {
     text-align: center;
     z-index: 99;
 }
-.header-area .block .me {
-    margin-top: 45%;
-}
 .header-area h1 {
     color: #fff;
     text-transform: capitalize;
-  }
+}
+.me {
+    margin-top: 36%;
+}
+.me h1 {
+    font-size: 65px;
+}
+
+@media screen and (max-width: 768px) {
+    .me {
+        margin-top: 45%;
+    }
+}
