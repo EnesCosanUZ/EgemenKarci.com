@@ -59,7 +59,7 @@ nav {
     text-transform: capitalize;
 }
 .me {
-    margin-top: 66%;
+    margin-top: 20rem;
 }
 .me h1 {
     font-size: 65px;
@@ -94,14 +94,70 @@ nav {
     background: transparent;
     border: transparent;
 }
-/* LASTPort SECTION */
-.lastPort {
+/* PORTFOLYO SECTION */
+.portfolyo {
+    background: rgba(0, 0, 0);
+    color: #fff;
+}
+/* CONTACT SECTION */
+.contact {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+}
+.contact .box {
+    width: 12rem;
+    height: 12rem;
+    font-size: 90px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 1s;
+}
+.contact .box:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.contact .box:hover i {
+    color: #fff;
+}
+.contact .box i {
+    padding-top: 3rem;
+    color: #000;
+}
+/* FOOTER SECTION */
+.footer {
     background: rgba(0, 0, 0);
 }
-
+.footer p.muted {
+    color: #fff;
+}
+.footer p.muted a {
+    color: rgba(255, 255, 255, 0.5);
+}
 /* TABLET AND LOWER WIDTH SETTINGS*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .me {
-        margin-top: 75%;
+        margin-top: 18rem;
+    }
+    .me h1 {
+        font-size: 30px;
+    }
+    .me p {
+        font-size: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+}
+/*AFTER 1441*/
+@media screen and (min-width:1441px) {
+    .me {
+        margin-top: 36rem;
+    }
+    .me h1 {
+        font-size: 80px;
+    }
+    .me p {
+        font-size: 27px;
     }
 }
