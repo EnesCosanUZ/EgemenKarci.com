@@ -59,7 +59,7 @@ nav {
     text-transform: capitalize;
 }
 .me {
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 .me h1 {
     font-size: 65px;
@@ -150,9 +150,9 @@ nav {
     }
 }
 /*AFTER 1441*/
-@media screen and (min-width:1441px) {
+@media screen and (min-width:1442px) {
     .me {
-        margin-top: 36rem;
+        margin-top: 25rem;
     }
     .me h1 {
         font-size: 80px;
